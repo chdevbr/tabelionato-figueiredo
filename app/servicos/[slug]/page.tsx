@@ -649,17 +649,35 @@ export default async function ServiceContentPage({ params }: Props) {
 }
 
 export async function generateStaticParams() {
+  // Lista exata das chaves do seu banco de dados
   return [
-    { slug: 'abertura-firma' },
-    { slug: 'reconhecimento-firma' },
-    { slug: 'autenticacao' },
-    { slug: 'ata-notarial' },
-    { slug: 'divorcio-inventario' },
-    { slug: 'escrituras' },
-    { slug: 'procuracao' },
-    { slug: 'testamento' },
-    { slug: 'uniao-estavel' },
-    { slug: 'usucapiao' },
-    { slug: 'apostila' },
+    // --- NOTARIAIS ---
+    { slug: "abertura-de-firma" },
+    { slug: "reconhecimento-de-firma" },
+    { slug: "autenticacao" },
+    { slug: "ata-notarial" },
+    { slug: "divorcio-inventario-extrajudicial" },
+    { slug: "escrituras-imobiliarias" },
+    { slug: "procuracao-publica" },
+    { slug: "testamento-publico" },
+    { slug: "dissolucao-uniao-estavel" },
+    { slug: "usucapiao" },
+
+    // --- DIGITAIS ---
+    { slug: "assinatura-digital" },
+    { slug: "ato-notarial-eletronico" },
+    { slug: "certificado-digital" },
+    { slug: "escritura-eletronica" },
+    { slug: "procuracao-eletronica" },
+    { slug: "reconhecimento-firma-digital" },
+    { slug: "videoconferencia" },
+
+    // --- ESPECIAIS ---
+    { slug: "apostila-de-haia" },
+    { slug: "atos-empresariais" },
+    { slug: "conciliacao-e-mediacao" },
+    { slug: "condominio-e-incorporacoes" },
+    { slug: "planejamento-sucessorio" },
+    { slug: "diretiva-antecipada" },
   ];
 }
