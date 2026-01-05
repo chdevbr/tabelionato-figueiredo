@@ -647,3 +647,19 @@ export default async function ServiceContentPage({ params }: Props) {
     </main>
   );
 }
+
+export async function generateStaticParams() {
+  return [
+    { slug: 'abertura-firma' },
+    { slug: 'reconhecimento-firma' },
+    { slug: 'autenticacao' },
+    { slug: 'ata-notarial' },
+    { slug: 'divorcio-inventario' },
+    { slug: 'escrituras' },
+    { slug: 'procuracao' },
+    { slug: 'testamento' },
+    { slug: 'uniao-estavel' },
+    { slug: 'usucapiao' },
+    { slug: 'apostila' },
+  ];
+}
