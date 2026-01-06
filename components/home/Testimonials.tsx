@@ -37,9 +37,9 @@ export default function Testimonials() {
 
         {/* Padrão de cubos (Mantido) */}
         <div
-          className="absolute inset-0 opacity-[0.05]" // Opacidade reduzida para ficar sutil no escuro
+          className="absolute inset-0 opacity-[0.09]" // Opacidade reduzida para ficar sutil no escuro
           style={{
-            backgroundImage: "url('/cubes.png')",
+            backgroundImage: "url('/tabelionato-figueiredo/cubes.png')",
             backgroundRepeat: "repeat",
             backgroundSize: "auto",
           }}

@@ -55,7 +55,7 @@ export default function Hero() {
     <section className="relative min-h-[85vh] w-full flex flex-col justify-between overflow-hidden bg-slate-900 border-b-4 border-red-800">
       {/* 1. IMAGEM DE FUNDO */}
       <div className="absolute inset-0 w-full h-full pointer-events-none">
-        <div className="absolute inset-0 bg-[url('/bg-hero.jpg')] bg-cover bg-center bg-fixed"></div>
+        <div className="absolute inset-0 bg-[url('/tabelionato-figueiredo/bg-hero.jpg')] bg-cover bg-center bg-fixed"></div>
         <div className="absolute inset-0 bg-slate-900/90 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:24px_24px] opacity-20"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/95 to-slate-900/70"></div>
       </div>

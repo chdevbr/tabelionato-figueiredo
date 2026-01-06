@@ -6,25 +6,25 @@ import { ChevronLeft, ChevronRight, ImageIcon } from "lucide-react";
 const PHOTOS = [
   {
     id: 1,
-    src: "/recepcaoterreo.jpg",
+    src: "/tabelionato-figueiredo/recepcaoterreo.jpg",
     title: "Térreo - Atendimento Geral",
     desc: "Reconhecimento e abertura de firma, autenticações, apostilamento, ata notarial, e-notariado presencial e emissão de certidões.",
   },
   {
     id: 2,
-    src: "/recepcao1.jpg",
+    src: "/tabelionato-figueiredo/recepcao1.jpg",
     title: "1º Andar - Escrituras e Procurações",
     desc: "Setor dedicado à lavratura de escrituras públicas, procurações, inventários, divórcios e demais atos jurídicos complexos.",
   },
   {
     id: 3,
-    src: "/recepcao10.jpg",
+    src: "/tabelionato-figueiredo/recepcao10.jpg",
     title: "10º Andar - Tabelionato e Digital",
     desc: "Gabinete do Tabelião, realização de Testamentos e central de Atos Digitais. Atendimento exclusivo mediante agendamento.",
   },
   {
     id: 4,
-    src: "/frente.jpg",
+    src: "/tabelionato-figueiredo/frente.jpg",
     title: "Sede Própria",
     desc: "Estrutura moderna e segura no coração do Recife, projetada para garantir conforto e eficiência em todos os atendimentos.",
   },

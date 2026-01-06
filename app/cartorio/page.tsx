@@ -157,7 +157,7 @@ export default function CartorioPage() {
             <div className="w-full md:w-1/3 flex flex-col items-center text-center md:items-start md:text-left sticky top-32">
               <div className="w-56 h-56 mb-6 relative rounded-2xl overflow-hidden shadow-2xl border-2 border-slate-600 group">
                 <Image
-                  src="/tabeliao.jpg"
+                  src="/tabelionato-figueiredo/tabeliao.jpg"
                   alt="Dr. Ivanildo Figueiredo"
                   fill
                   className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
@@ -171,7 +171,7 @@ export default function CartorioPage() {
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
                 Ivanildo Figueiredo
               </h2>
-              <p className="text-red-400 font-medium mb-6">
+              <p className="text-red-500 font-medium mb-6">
                 Tabelião Titular (Desde 2000)
               </p>
 

@@ -207,7 +207,7 @@ export default function Navbar() {
           {/* LOGO */}
           <Link href="/" className="z-50 block shrink-0">
             <Image
-              src="/logo.png"
+              src="/tabelionato-figueiredo/logo.png"
               alt="Tabelionato Figueiredo"
               width={400}
               height={110}
